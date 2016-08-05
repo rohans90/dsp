@@ -13,22 +13,22 @@ these in a couple of hours.
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > pwd, mkdir, cd, ls, rmdir, cat, mv, HELP, rm, exit
 
 ---
 
 ###Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
-`ls -a`  
-`ls -l`  
-`ls -lh`  
-`ls -lah`  
-`ls -t`  
-`ls -Glp`  
+`ls`  : list all files
+`ls -a`  : list hidden files
+`ls -l`  : flag lists with long listing format
+`ls -lh`  : long listing with file size
+`ls -lah`  : long listing format
+`ls -t`  : sort files by time and date
+`ls -Glp` : glp file types 
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
 
 ---
 
@@ -36,7 +36,7 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > ls-R, ls-f, ls-m, ls-L, ls-r
 
 ---
 
@@ -44,7 +44,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > xargs is a command on unix  used to build and execute command lines from standard input. Commands such as grep and awk can accept the standard input as a parameter, or argument by using a pipe.
 
  
 

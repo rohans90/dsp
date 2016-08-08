@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Tuples are heterogeneous data structures (i.e., their entries have different meanings), while lists are homogeneous sequences. Tuples have structure, lists have order. Tuples are immutable. Tuples will work as keys in a dictionary.A list can store multiple locations of a given entry.
 
 ---
 
@@ -20,15 +20,17 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
-
+>> A list keeps order while a set doesn't. Lists and sets both contain actual values rather than just keys. However a set requires items to be hashable ehile a list doesnt. A set also forbids duplicates. 
 ---
 
 ###Q3. Lambda Function
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Pythons lambda is simply a function that carries out the task assigned to it. 
+>>> f = lambda x: x + 1
+>>> f(3)
+4
 
 ---
 
@@ -36,7 +38,7 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Essentially, a list comprehension is a compact for-loop that builds lists. Each iteration, an element can be appended to list being built.
 
 ---
 

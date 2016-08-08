@@ -131,3 +131,116 @@ def front_back(a, b):
     'KitDontenut'
     """
     raise NotImplementedError
+    
+    def donuts(count):
+    if count <10:
+        print ("Number of donuts:", count)
+    else:
+        print ("Number of donuts: many")
+    
+donuts(4)
+donuts(9)
+donuts(10)
+donuts(99)
+    
+    
+def both_ends(s):
+     return s[:2]+s[-2:] if len(s) >=2 else ''    
+    
+
+
+both_ends('spring')
+    'spng'
+both_ends('Hello')
+    'Helo'
+both_ends('a')
+    ''
+both_ends('xyz')
+    'xyyz'
+   
+   
+def fix_start(s):
+    
+    a = s[1:].replace(s[0], "*") 
+    print (s[0]+a)
+    
+fix_start('babble')
+    'ba**le'
+fix_start('aardvark')
+    'a*rdv*rk'
+fix_start('google')
+    'goo*le'
+fix_start('donut')
+    'donut'
+    
+
+def mix_up(a, b):
+    c = a.replace(a[:2],b[:2])
+    d = b.replace(b[:2],a[:2])
+    print (c, d)    
+    
+    mix_up('mix', 'pod')
+    'pox mid'
+    mix_up('dog', 'dinner')
+    'dig donner'
+    mix_up('gnash', 'sport')
+    'spash gnort'
+    mix_up('pezzy', 'firm')
+    'fizzy perm'
+    
+
+def verbing(s):
+    if s == s.replace(s[-3:],"ing") :
+        print (s+"ly")
+    elif len(s) > 2:
+        print (s+"ing")
+    else:
+        print (s)
+    
+    >>> verbing('hail')
+    'hailing'
+    >>> verbing('swiming')
+    'swimingly'
+    >>> verbing('do')
+    'do'
+
+def not_bad(s):
+    if s.find("bad") > s.find("not"):
+        s = s.replace(s[s.find("not"):(3+s.find("bad"))], "good")
+        print (s)
+    else:
+        print(s)
+        
+    
+    
+    Given a string, find the first appearance of the substring 'not'
+    and 'bad'. If the 'bad' follows the 'not', replace the whole
+    'not'...'bad' substring with 'good'. Return the resulting string.
+    So 'This dinner is not that bad!' yields: 'This dinner is
+    good!'
+    >>> not_bad('This movie is not so bad')
+    'This movie is good'
+    >>> not_bad('This dinner is not that bad!')
+    'This dinner is good!'
+    >>> not_bad('This tea is not hot')
+    'This tea is not hot'
+    >>> not_bad("It's bad yet not")
+    "It's bad yet not"
+    
+
+
+def front_back(a, b):
+  
+    hlena, hlenb = (len(a) + 1)/2, (len(b) + 1)/2
+    print (a[:hlena] + b[:hlenb] + a[hlena:] + b[hlenb:])   
+    
+    
+    
+    
+    >>> front_back('abcd', 'xy')
+    'abxcdy'
+    >>> front_back('abcde', 'xyz')
+    'abcxydez'
+    >>> front_back('Kitten', 'Donut')
+    'KitDontenut'
+   

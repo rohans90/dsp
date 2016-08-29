@@ -86,8 +86,9 @@ This would mean the probability Elvis is identical would be 5/(6+5) or 5/11
 ###Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> A Bayesian defines a "probability" as an indication of the plausibility of a proposition or a situation. If you ask him a question, he will give you a direct answer assigning probabilities describing the plausibilities of the possible outcomes for the particular situation (and state his prior assumptions).
 
+A Frequentist is someone that believes probabilities represent long run frequencies with which events occur; if needs be, he will invent a fictitious population from which your particular situation could be considered a random sample so that he can meaningfully talk about long run frequencies. If you ask him a question about a particular situation, he will not give a direct answer, but instead make a statement about this (possibly imaginary) population. 
 ---
 
 ###Optional Exercises
